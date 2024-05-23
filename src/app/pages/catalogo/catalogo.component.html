@@ -1,0 +1,27 @@
+<div class="container mt-3">
+  <div class="row">
+    <div class="col-md-12">
+      <h1 class="text-primary">Catalogo de Libros</h1>
+    </div>
+    <div class="col-md-12 mt-3">
+      <div class="row">
+        <div *ngFor="let libro of libros" class="col-md-4">
+          <div class="card border-secondary">
+            <div class="card-body">
+              <h5 class="card-title text-secondary">{{ libro.titulo }}</h5>
+              <p class="card-text">
+                <b>Genero:</b> {{ libro.genero }}<br>
+                <b>Autor:</b> {{ libro.autor }} <br>
+                <b>Estado:</b> {{ libro.estado}}
+              </p>
+              @if(libro.estado == 'devuelto'){
+              <button name="prestar" (click)="set()" class="btn btn-outline-primary btn-sm">Prestar</button>
+              }@else{
+              <button name="devuelto" class="btn btn-outline-danger btn-sm">Devolver</button>
+              }
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

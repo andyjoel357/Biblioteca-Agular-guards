@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.contact-info {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+.contact-info h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.contact-info p {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+.contact-info a {
+    display: block;
+    margin-top: 2rem;
+    padding: 0.5rem 2rem;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+}

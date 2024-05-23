@@ -1,0 +1,58 @@
+{
+  "libros": [
+    {
+      "id": 1,
+      "titulo": "The Catcher in the Rye",
+      "autor": "J.D. Salinger",
+      "year": 1952,
+      "genero": "Drama",
+      "estado": "devuelto"
+    },
+    {
+      "id": 2,
+      "titulo": "To Kill a Mockingbird",
+      "autor": "Harper Lee",
+      "year": 1960,
+      "genero": "Fiction",
+      "estado": "prestado"
+    },
+    {
+      "id": 3,
+      "titulo": "Pride and Prejudice",
+      "autor": "Jane Austen",
+      "year": 1813,
+      "genero": "Romance",
+      "estado": "devuelto"
+    },
+    {
+      "id": 4,
+      "titulo": "The Great Gatsby",
+      "autor": "F. Scott Fitzgerald",
+      "year": 1925,
+      "genero": "Fiction",
+      "estado": "prestado"
+    },
+    {
+      "id": 5,
+      "titulo": "Moby Dick",
+      "autor": "Herman Melville",
+      "year": 1851,
+      "genero": "Adventure",
+      "estado": "devuelto"
+    }
+  ],
+  "users": [
+    {
+      "email": "walter@gmail.com",
+      "password": "$2a$10$uPx.2.XKUpX9CTSFJ73V3eQfgQ/dN/hRJcM0NxAgiRjlnT1W0Ljx6",
+      "role": "administrador",
+      "id": 5
+    },
+    {
+      "email": "ness@gmail.com",
+      "password": "$2a$10$AdkHxQ/7aEOCHNrNkqecv.3tGQhYomfV33asipyr3FQrrcTEaKfLC",
+      "role": "bibliotecario",
+      "id": 7
+    }
+  ]
+}
